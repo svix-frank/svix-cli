@@ -60,7 +60,6 @@ nfpms:
 snapcrafts:
   -
     name: svix
-    publish: false
     summary: Svix CLI utility
     description: |
       Svix makes it easy to send webhook from your service while ensuring robust deliverability and a great developer experience for your users.
