@@ -23,6 +23,11 @@ jobs:
         with:
           go-version: 1.16
       -
+        name: Set up Snapcraft
+        run: |
+          sudo apt-get update
+          sudo apt-get -yq --no-install-suggests --no-install-recommends install snapcraft
+      -
         name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v2
         with:
